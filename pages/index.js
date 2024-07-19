@@ -1,7 +1,7 @@
-import Header from "@/component/header";
-import Hero from "@/component/hero";
-import Testimonial from "@/component/testimonial";
-import Footer from "@/component/footer";
+import Header from "@/components/header";
+import Hero from "@/components/hero";
+import Testimonial from "@/components/testimonial";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Testimonial />
+      <Footer />
     </>
   );
 }
